@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   todofront:
     image: todofrontend
@@ -9,15 +9,11 @@ services:
       - 3000:3000
     depends_on:
       - todoback
-    networks:
-      - rede-virtual
   todoback:
     image: todobackend
     restart: always
     ports:
       - 3001:3001
-    networks:
-      - rede-virtual
   todotests:
     image: todotests
     restart: always
@@ -26,8 +22,4 @@ services:
     depends_on:
       - todofront
       - todoback
-    networks:
-      - rede-virtual
-
-networks:
-  rede-virtual:
+      
