@@ -1,4 +1,9 @@
-# :construction: README customizado em construção ! :construction:
+# Docker Todo List
+
+Criação de conteiners em aplicações de frontend, backend e testes com o uso de Docker, criando uma conexão entre elas e desenvolvendo a orquestração de seu funcionamento.
+
+Neste projeto utilizamos as tecnologias Bash e Docker.
+
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
