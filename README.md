@@ -1,4 +1,4 @@
-# Docker Todo List
+# Projeto Docker Todo List
 
 Criação de conteiners em aplicações de frontend, backend e testes com o uso de Docker, criando uma conexão entre elas e desenvolvendo a orquestração de seu funcionamento.
 
